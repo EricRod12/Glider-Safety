@@ -6,7 +6,7 @@ The code that Richard provided contains the base features for our analysis. That
 
 Other features for analysis were created in pilot_behavior_analysis.py. This is where features such as terrain altitude and terrain type were created.
 
-The code that estimates true airspeed during engine runs is called pilot_behavior_EDA.ipynb. In that file, we used one flight as a proof of concept that our circling function, found in circling.py, works properly. Then we proceeded by separating our gliders into Self-Launch and Turbo Gliders.
+The code that estimates true airspeed during engine runs is called pilot_behavior_EDA.ipynb. In that file, we used one flight as a proof of concept that our circling function, found in circling.py, works properly. Then we proceeded by separating our gliders into Self-Launch and Turbo Gliders and estimated TAS during engine runs for all engine runs for all flights.
 
 The code that filters flights based on if they had an engine run during their flight is in filter_flights_engine_runs.py.
 To run that code, we used the command python filter_flights_engine_runs.py capstone filtered. Capstone is the directory where all of our IGC files were found and filtered is the destination directory for the IGC files with engine runs. 
