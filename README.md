@@ -15,5 +15,6 @@ The environment we used for our libraries such as rasterio and gdal is consilida
 
 Add max_noise_columns.py helped us to obtain the max noise registration levels for our ENL, MOP and RPM sensors during engine runs.
 
+Column names and definitions for the table that we used for the majority of the analysis, flights_final_with_estimates.csv, is found in final_flights_with_estimates_column_name_reference.csv
 
 
